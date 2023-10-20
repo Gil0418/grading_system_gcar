@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Side navigation bar */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+/* Navigation links */
+.sidenav a {
+    padding: 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+/* Hover effect on navigation links */
+.sidenav a:hover {
+    background-color: #555;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 125px; /* Adjust the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Text style for logo */
+.logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for bottom links */
+.bottom-links {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
